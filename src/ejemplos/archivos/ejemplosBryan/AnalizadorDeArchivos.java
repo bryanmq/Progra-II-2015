@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author usuario
+ * @author BRYAN MARIN QUESADA
  */
 public class AnalizadorDeArchivos {
 
