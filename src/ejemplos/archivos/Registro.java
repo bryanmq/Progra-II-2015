@@ -37,7 +37,7 @@ public class Registro extends JFrame {
         informacion.add(jtnombre);
         informacion.add(jlsalario);
         informacion.add(jtsalario);
-        System.out.println("PRUEBA");
+        
         iniciador = 1;
         salvar.addActionListener(
                 new ActionListener() {
