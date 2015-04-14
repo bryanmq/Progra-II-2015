@@ -31,7 +31,7 @@ public class Registro extends JFrame {
         jlnombre = new JLabel("Nombre");
         jtsalario = new JTextField(10);
         jlsalario = new JLabel("Salario");
-//SYSTEM32
+
         JPanel informacion = new JPanel();
         informacion.add(jlnombre);
         informacion.add(jtnombre);
