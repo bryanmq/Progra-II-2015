@@ -37,11 +37,11 @@ public class Registro extends JFrame {
         informacion.add(jtnombre);
         informacion.add(jlsalario);
         informacion.add(jtsalario);
-
+        System.out.println("PRUEBA");
         iniciador = 1;
         salvar.addActionListener(
                 new ActionListener() {
-
+                  
                     public void actionPerformed(ActionEvent event) {
                         if (iniciador++ == 1) {
                             archivo = new EscritorArchivo2();
