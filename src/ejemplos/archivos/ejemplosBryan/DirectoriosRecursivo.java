@@ -45,6 +45,16 @@ public class DirectoriosRecursivo {
         }
         return strNombreArchivos + strNombreDirectorios;
     }
+    
+    public void mostrarNombres(File file){
+        File listado[]= file.listFiles();
+            for(int i=0; i<listado.length; i++){
+                System.out.println(listado[i].getName());
+                if(listado[i].isDirectory()){
+                    mostrarNombres(listado[i]);
+                }
+            }
+    }
 
     public static void main(String[] args) {
         DirectoriosRecursivo directoriosRecursivo = new DirectoriosRecursivo();
