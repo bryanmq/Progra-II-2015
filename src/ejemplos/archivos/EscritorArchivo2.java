@@ -1,5 +1,5 @@
 package ejemplos.archivos;
-//COMENTARIO2222
+
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
